@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer base{
+    .bg-container{
+        @apply min-h-screen h-full w-screen
+    }
+
+    .f-ac-jc{
+        @apply justify-center items-center
+    }
+}
